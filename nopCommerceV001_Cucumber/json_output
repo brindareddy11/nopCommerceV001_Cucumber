@@ -1,0 +1,721 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Below are the common steps for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1238000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3828000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User can view Dashboard",
+            "match": {
+              "location": "stepDefinitions.Steps.user_can_view_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T09:27:16.672Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1822000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search customer by email",
+        "description": "",
+        "id": "customers;search-customer-by-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on customer menu",
+            "match": {
+              "location": "stepDefinitions.Steps.user_click_on_customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7269000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on customer menu Item",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_customer_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter customer email",
+            "match": {
+              "location": "stepDefinitions.Steps.enter_customer_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should found email in the search table",
+            "match": {
+              "location": "stepDefinitions.Steps.user_should_found_email_in_the_search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Below are the common steps for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1144000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3795000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User can view Dashboard",
+            "match": {
+              "location": "stepDefinitions.Steps.user_can_view_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T09:27:39.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1091000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Search customer by name",
+        "description": "",
+        "id": "customers;search-customer-by-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click on customer menu",
+            "match": {
+              "location": "stepDefinitions.Steps.user_click_on_customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5930000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on customer menu Item",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_customer_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter Customer Firstname",
+            "match": {
+              "location": "stepDefinitions.Steps.enter_customer_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter cusromer LastName",
+            "match": {
+              "location": "stepDefinitions.Steps.enter_cusromer_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2241000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user should found name in the search table",
+            "match": {
+              "location": "stepDefinitions.Steps.user_should_found_name_in_the_search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Customers",
+    "description": "",
+    "id": "customers",
+    "keyword": "Feature",
+    "uri": "file:Features/Customers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Below are the common steps for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1400000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T09:27:59.296Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "login Data Driven",
+        "description": "",
+        "id": "login;login-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3804000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.Page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5333000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on log out link",
+            "match": {
+              "location": "stepDefinitions.Steps.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Page Title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.Page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 623000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Below are the common steps for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T09:28:11.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1082000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "login Data Driven",
+        "description": "",
+        "id": "login;login-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2246000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.Page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4710000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on log out link",
+            "match": {
+              "location": "stepDefinitions.Steps.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Page Title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.Page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 657000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

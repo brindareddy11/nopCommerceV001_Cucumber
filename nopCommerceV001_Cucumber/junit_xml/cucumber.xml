@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="64.609">
+<testcase classname="Customers" name="Search customer by email" time="22.347">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then User can view Dashboard................................................passed
+When User click on customer menu............................................passed
+And click on customer menu Item.............................................passed
+And Enter customer email....................................................passed
+When click on search button.................................................passed
+Then user should found email in the search table............................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customers" name="Search customer by name" time="20.259">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then User can view Dashboard................................................passed
+When User click on customer menu............................................passed
+And click on customer menu Item.............................................passed
+And Enter Customer Firstname................................................passed
+And Enter cusromer LastName.................................................passed
+When click on search button.................................................passed
+Then user should found name in the search table.............................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="login Data Driven" time="12.484">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="login Data Driven 2" time="9.391">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
